@@ -54,7 +54,7 @@ let techs = ["html", "css", "js"];
 /* techs.shift() */
 
 // pegar somente alguns elementos do array
-console.log(techs.slice(1,3))
+/* console.log(techs.slice(1,3)) */
   // ["css", "js"]
 
 // remover 1 ou mais itens em qualquer posição do array
@@ -62,3 +62,24 @@ console.log(techs.slice(1,3))
   // [ 'css', 'js' ]
 
 // encontrar a posição de um elemento no array
+/* let index = techs.indexOf('css'); */
+/* console.log(index) */
+// 1
+
+
+
+
+
+
+// Maninpulando objetos: 
+// adicionando novo objeto!
+
+/* const obj = { 
+  name: 'Ivo Junior',
+  age: 25,
+  height: 1.8
+}
+
+const obj2 = { ...obj, sex: 'male'} */
+
+/* console.log(obj2) */
