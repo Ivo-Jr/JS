@@ -83,3 +83,56 @@ let techs = ["html", "css", "js"];
 const obj2 = { ...obj, sex: 'male'} */
 
 /* console.log(obj2) */
+
+/* const person = { 
+  name: 'Junior',
+  age: 25
+}
+
+delete person.age
+
+console.log(person) */
+  // { name: 'Junior' }
+
+
+
+// OPERADORES LÓGICOS:
+
+// EXPONENCIAÇÃO
+
+/* console.log( 3 ** 2) */
+  // 9
+
+// Assignment
+/* let x
+x = 3 */
+
+/* console.log( x ** 2) */
+ // 9
+
+
+ // CONDICIONAL TERNÁRIA:
+
+ /* let pao = true;
+ let queijo = true;
+
+ const niceBreakfast = pao && queijo ? 'Café top' : 'Café ruim'; */
+
+ /* console.log(niceBreakfast); */
+  // Café top
+
+
+// PRECEDÊNCIA DOS OPERADORES:
+
+/* console.log( 3 > 2 > 1) */
+  // false
+  /*  Aqui comparamos primeiro: "3 > 2"? True. 
+    segundo: "true > 1"? false.
+  */
+ 
+    // Para resultar em true, uma das formas de escrevermos além d usarmos "grouping" - (parenteses), é a seguinte:
+ /* console.log( 3 > 2 == 1) */
+  // true. 
+
+ /* console.log( 3 > 2 && 2 > 1) */
+  // true. 
