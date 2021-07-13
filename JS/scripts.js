@@ -140,7 +140,7 @@ x = 3 */
 
   // SWITCH CASE (calculadora)
 
-  function calculate(number1, operator, number2) {
+ /*  function calculate(number1, operator, number2) {
     let result = 0;
 
     switch (operator) {
@@ -164,4 +164,24 @@ x = 3 */
     return result
   }
 
-  console.log(calculate(2,'*', 9))
+  console.log(calculate(2,'*', 9)) */
+
+// THROW E TRY/CATCH:
+
+/* function sayMyName(name = '') {
+  if (name === '') {
+
+    // "throw" lança uma execução definida pelo usuário. A função interrompe e o 
+    // controle passa para o primeiro bloco do "catch".
+    throw 'Nome é obrigatorio'
+  }
+
+  console.log(name)
+
+}
+
+try {
+  sayMyName()
+} catch (e) {
+  console.log(e)
+} */
