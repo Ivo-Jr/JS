@@ -183,5 +183,5 @@ x = 3 */
 try {
   sayMyName()
 } catch (e) {
-  console.log(e)
+  console.log(e);
 } */
