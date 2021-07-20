@@ -185,3 +185,81 @@ try {
 } catch (e) {
   console.log(e);
 } */
+
+
+// ESTRUTURA DE REPETIÇÃO:
+
+// for
+// break - para a execução do loop
+// continue - pula a execução do momento
+
+// A laço de repetição para no número 50
+/* for (let i = 100; i > 0; i--) {
+  if(i === 50) {
+    break;
+  }
+
+  console.log(i)
+} */
+
+// O numero "5" é pulado.
+/* for (let i = 10; i > 0; i--) {
+  if(i === 5) {
+    continue;
+  }
+
+  console.log(i)
+} */
+
+// WHILE
+// (Geralmente usado quando não sabemos ao certo o momento de parada, exemplo:)
+
+/* let i = 533287
+
+while( i > 10 ) {
+  console.log(i);
+
+  i /= 35
+} */
+
+// for...of
+
+/* let name = 'Junior';
+let names = ['Gabriel', 'Junior', 'Maciel'];
+
+for(let char of name) {
+  console.log(char)
+} */
+  // Cada letra se torna uma variável.
+  // J, u, n, i, o, r
+
+/*   for(let char of names) {
+    console.log(char)
+  } */
+  
+  // Cada palavra se torna uma variável.
+  // 'Gabriel', 'Junior', 'Maciel'
+
+  // for...in
+    // cria um llop em cima de um objeto
+
+  /* let person = {
+    name: 'John',
+    age: 30,
+    weight: 88.6
+  } */
+
+/*  
+  for (let property in person) {
+    // console.log(property)
+    
+    Posso acessar as propriedades de 3 formas:         
+      * console.log(person["name"])
+        // John, John, John
+      * console.log(person.name)
+        // John, John, John
+      * console.log(person[property])
+        // John, 30, 88.6
+        
+  }
+*/
