@@ -23,11 +23,59 @@ function checkValue(number) {
 
 checkValue(score);
 
-/* switch (number) {
-  case number  90:
-    console.log('A');
-    break;
-    
-  default: 
-  console.log('dale')
-} */
+
+
+// USING SWITCH CASE:
+
+/* function compair(value) {
+  let scoreA;
+  let scoreB;
+  let scoreC;
+  let scoreD;
+  let scoreF;
+
+  // if (value >= 90 && value <= 100) {
+  //   scoreA = value;
+  // } else if (value >= 80 && value <= 89) {
+  //   scoreB = value;
+  // } else if (value >= 70 && value <= 79) {
+  //   scoreC = value;
+  // } else if (value >= 60 && value <= 69) {
+  //   scoreD = value;
+  // } else if (value < 60 && value >= 0) {
+  //   scoreF = value;
+  // }
+
+  (value >= 90 && value <= 100) ? scoreA = value : null;
+  (value >= 80 && value <= 89) ? scoreB = value : null;
+  (value >= 70 && value <= 79) ? scoreC = value : null;
+  (value >= 60 && value <= 69) ? scoreD = value : null;
+  (value < 60 && value >= 0) ? scoreF = value : null;
+  
+  switch (value) {
+    case scoreA:
+      console.log('A');
+      break;
+
+    case scoreB:
+      console.log('B');
+      break;
+
+    case scoreC:
+      console.log('C');
+      break;
+
+    case scoreD:
+      console.log('D');
+      break;
+
+    case scoreF:
+      console.log('F');
+      break;
+      
+    default: 
+    console.log('Nota inválida')
+  }
+}
+
+compair(70) */
